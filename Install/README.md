@@ -22,7 +22,7 @@ java -version
 
 # **2. Installing Maven on Linux**
 
-To install Maven on the Linux operating system, download the latest version from the [Apache Maven site](https://maven.apache.org/), select the Maven binary tar.gz file, for example: apache-maven-3.3.9-bin.tar.gz.
+To install Maven on the Linux operating system, download the latest version from the [Apache Maven site](https://maven.apache.org/), select the Maven binary tar.gz file, for example: apache-maven-3.6.3-bin.tar.gz.
 
 Extract the archive to your desired location.
 
@@ -33,11 +33,11 @@ Extract the archive to your desired location.
 Open the command terminal and run the following commands to set the environment variables:
 
 ```
-$ export M2_HOME=/usr/local/apache-maven/apache-maven-3.3.9
+$ export M2_HOME=/usr/local/apache-maven/apache-maven-3.6.3
 
 $ export M2=$M2_HOME/bin
 
-$ export MAVEN_OPTS=-Xms256m -Xmx512m
+$ export MAVEN_OPTS="-Xms256m -Xmx512m"
 ```
 
 with *M2_Home* path corresponding with the location of your extracted Maven files.
@@ -57,12 +57,11 @@ $ mvn -version
 The output should be as follows:
 
 ```
-Apache Maven 3.3.3 (7994120775791599e205a5524ec3e0dfe41d4a06; 2016-12-03T17:27:37+05:30)
-Maven home: /usr/local/apache-maven/apache-maven-3.3.9
-
-Java version: 1.8.0_75, vendor: Oracle Corporation
-
-Java home: /usr/local/java-current/jdk1.8.0_75/jre
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Maven home: /usr/local/apache-maven/apache-maven-3.6.3
+Java version: 1.8.0_275, vendor: Red Hat, Inc., runtime: /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.275.b01-0.el7_9.x86_64/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "3.10.0-1160.11.1.el7.x86_64", arch: "amd64", family: "unix"
 ```
 
 You have successfully installed Maven on your Linux system.
