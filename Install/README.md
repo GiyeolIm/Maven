@@ -20,31 +20,7 @@ java -version
 
 
 
-# **2. Installing Maven on Windows**
-
-To install Maven on windows, head over to [Apache Maven site](https://maven.apache.org/) to download the latest version, select the Maven zip file, for example apache-maven-3.3.9-bin.zip.
-
-Unzip it to the folder you want Maven to live.
-
-
-
-### **2.1. Adding Maven to the Environment Path**
-
-Add both *M2_HOME* and *MAVEN_HOME* variables to the Windows environment using system properties, and point it to your Maven folder.
-
-Update the PATH variable by appending the Maven bin folder – *%M2_HOME%\bin*, so that you can run the Maven’s command everywhere.
-
-To verify it run:
-
-```
-mvn -version
-```
-
-in the command prompt. It should display the Maven version, the java version, and the operating system information. That's it, you have set up Maven on your Windows system.
-
-
-
-# **3. Installing Maven on Linux**
+# **2. Installing Maven on Linux**
 
 To install Maven on the Linux operating system, download the latest version from the [Apache Maven site](https://maven.apache.org/), select the Maven binary tar.gz file, for example: apache-maven-3.3.9-bin.tar.gz.
 
@@ -52,7 +28,7 @@ Extract the archive to your desired location.
 
 
 
-### **3.1. Adding Maven to the Environment Path**
+### **2.1. Adding Maven to the Environment Path**
 
 Open the command terminal and run the following commands to set the environment variables:
 
@@ -93,7 +69,7 @@ You have successfully installed Maven on your Linux system.
 
 
 
-# **4. Conclusion**
+# **3. Conclusion**
 
 This quick guide illustrated how to install Maven on the major operating systems for development.
 
